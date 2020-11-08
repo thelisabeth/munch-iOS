@@ -10,11 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    @IBOutlet weak var munchImage: UIImageView!
+    
+    var munchImageArray = [#imageLiteral(resourceName: "WhatsApp Image 2020-04-18 at 11.48.46"), #imageLiteral(resourceName: "WhatsApp Image 2020-04-18 at 11.48.46 (1)"), #imageLiteral(resourceName: "WhatsApp Image 2020-04-18 at 11.48.45 (1)"), #imageLiteral(resourceName: "WhatsApp Image 2020-04-18 at 11.48.45")]
+    
+    @IBAction func munchButtonPressed(_ sender: UIButton) {
+        
+    munchImage.image = munchImageArray.randomElement()
+        
     }
-
-
+    
+    
+    
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
 }
+
 

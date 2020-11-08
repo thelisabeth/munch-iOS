@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F1A5A30F243C7D6C007102E3 /* Culinary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Culinary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A5A30F243C7D6C007102E3 /* munch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = munch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A5A312243C7D6C007102E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1A5A314243C7D6C007102E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F1A5A316243C7D6C007102E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		F1A5A310243C7D6C007102E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F1A5A30F243C7D6C007102E3 /* Culinary.app */,
+				F1A5A30F243C7D6C007102E3 /* munch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F1A5A30E243C7D6C007102E3 /* Culinary */ = {
+		F1A5A30E243C7D6C007102E3 /* munch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F1A5A323243C7D6E007102E3 /* Build configuration list for PBXNativeTarget "Culinary" */;
+			buildConfigurationList = F1A5A323243C7D6E007102E3 /* Build configuration list for PBXNativeTarget "munch" */;
 			buildPhases = (
 				F1A5A30B243C7D6C007102E3 /* Sources */,
 				F1A5A30C243C7D6C007102E3 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Culinary;
+			name = munch;
 			productName = Culinary;
-			productReference = F1A5A30F243C7D6C007102E3 /* Culinary.app */;
+			productReference = F1A5A30F243C7D6C007102E3 /* munch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F1A5A30A243C7D6C007102E3 /* Build configuration list for PBXProject "Culinary" */;
+			buildConfigurationList = F1A5A30A243C7D6C007102E3 /* Build configuration list for PBXProject "munch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F1A5A30E243C7D6C007102E3 /* Culinary */,
+				F1A5A30E243C7D6C007102E3 /* munch */,
 			);
 		};
 /* End PBXProject section */
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobosfamily.Culinary;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = munch;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobosfamily.Culinary;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = munch;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1A5A30A243C7D6C007102E3 /* Build configuration list for PBXProject "Culinary" */ = {
+		F1A5A30A243C7D6C007102E3 /* Build configuration list for PBXProject "munch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1A5A321243C7D6E007102E3 /* Debug */,
@@ -328,7 +328,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F1A5A323243C7D6E007102E3 /* Build configuration list for PBXNativeTarget "Culinary" */ = {
+		F1A5A323243C7D6E007102E3 /* Build configuration list for PBXNativeTarget "munch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1A5A324243C7D6E007102E3 /* Debug */,
